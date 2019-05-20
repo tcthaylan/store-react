@@ -1,0 +1,50 @@
+.form-AddSlide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 30px auto;
+    background-color: #fff;
+}
+
+.form-AddSlide-title {
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.form-AddSlide > div {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-bottom: 8px;
+}
+
+.form-AddSlide  label {
+    color: rgba(0, 0, 0, 0.767);
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.form-AddSlide input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    width: 100%;   
+}
+
+.form-AddSlide input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #6c63ff , #7c76fc); ;
+    
+    color: #fff;
+}
+
+.img-addSlide {
+    width: 250px;
+}
